@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de Volumes (de Figuras 3D)</title>
+</head>
+<body>
+
+	<div style="text-align: center;">
+		<h1>
+			<b>Calculadora de Volumes (de Figuras 3D)</b>
+		</h1>
+		
+		<br>
+		
+		<form action="FigurasServlet" method="post">
+			Entrada: <input type="text" name="entrada"><br>
+			Cubo: <input type="radio" name="figura" value="1" checked required><br>
+			Esfera: <input type="radio" name="figura" value="2"><br><br>
+			<input type="submit" value="Calcular Volume">
+		</form>
+		
+	</div>
+
+</body>
+</html>
